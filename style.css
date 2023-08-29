@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+header{
+    width: 100%;
+    height: 100vh;
+    background: url("Screenshot\ \(19\).png");
+    background-size: cover;
+    position: relative;
+}
+nav{
+    display: flex;
+  
+justify-content: space-between;
+    position: absolute;
+    right:1%;
+    padding: 30px 5px;
+
+}
+nav i ,a {
+    padding-right: 15px;
+    font-size: 15px;
+    text-decoration: none;
+    color: white;
+}
+nav i{
+    font-size: 1.3rem;
+}
+img{
+    position: absolute;
+    top: 38%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.search form{
+    position: absolute;
+    top: 55%;
+    left: 27%;
+background-color: white;
+border-radius: 23px;
+}
+.search input{
+    width: 500px;
+    height: 45px;
+    outline: none;
+    border: none;
+}
+.cam{
+   padding-right: 10px;
+}
+.mic{
+    padding-right: 10px;
+}
+.search2{
+    padding-left: 12px;
+}
+.short{
+    position: absolute;
+    top: 65%;
+    left: 49%;
+    font-size: 2.7rem;
+    color: white;
+}
+.short:hover{
+    background: transparent;
+    color: antiquewhite;
+    border-radius: 8px;
+}
+
+.left{
+    position: absolute;
+    bottom: 7%;
+    left: 4%;
+   background-color: rgba(0, 0, 0, 0.669);
+  height: 50px;
+  width: 180px;
+  padding: 15px 28px;
+  margin:  2px 1px;
+  border-radius: 8px;
+}
+  
+
+.right{
+    position: absolute;
+    bottom: 7%;
+    right: 4%;
+    background: transparent;
+  
+    border-radius: 50%;
+    border: 10px solid rgba(0, 0, 0, 0.503);
+}
